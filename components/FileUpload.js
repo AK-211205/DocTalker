@@ -50,7 +50,7 @@ export default function FileUpload() {
   return (
     <div className="mb-3">
       <div>
-        <label htmlFor="formFile" className="mb-2 inline-block text-black">
+        <label htmlFor="formFile" className="mb-2 inline-block bg-gradient-to-r from-[#108dc7] to-[#ef8e38] bg-clip-text text-transparent font-bold text-[24px]">
           Upload a PDF File
         </label>
         <input
