@@ -50,6 +50,7 @@ export default function FileUpload() {
   return (
     <div className="mb-3">
       <div>
+        <div className="p-4 rounded-xl bg-white shadow transition duration-300 hover:shadow-[0_0_20px_rgba(239,142,56,2)]">
         <label htmlFor="formFile" className="mb-2 inline-block bg-gradient-to-r from-[#108dc7] to-[#ef8e38] bg-clip-text text-transparent font-bold text-[24px]">
           Upload a PDF File
         </label>
@@ -59,6 +60,7 @@ export default function FileUpload() {
           id="formFile"
           onChange={handleFileChange}
         />
+        </div>
       </div>
 
       <div className="text-right py-2">

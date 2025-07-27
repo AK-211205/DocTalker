@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container hidden bg-white w-full px-5  h-[78px] sm:flex justify-between items-center border shadow-[0px_1px_4px_0px_rgba(0,0,0,0.25)] rounded-[30px] border-solid border-[rgba(0,0,0,0.17)] mx-auto">
         <h1
           className={
-            "intro-title inline-block text-transparent px-5 lg:px-0 bg-clip-text py-4 text-3xl font-bold bg-gradient-to-r from-[#108dc7] to-[#ef8e38] font-squarePeg"
+            "intro-title inline-block text-transparent px-5 lg:px-0 bg-clip-text py-4 text-3xl font-bold font-squarePeg bg-gradient-to-r from-[#108dc7] via-[#ef8e38] to-[#108dc7] bg-[length:200%_auto] animate-shimmer"
           }
         >
           DocTalker
